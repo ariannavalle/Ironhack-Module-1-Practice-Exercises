@@ -13,6 +13,5 @@ const people = [
   { name: "Bill", age: 19 }
 ];
 
-let allowed = people.filter(person => {return person.age >= 21})
-let peopleAllowed = allowed.map(person => person.name)
-console.log(peopleAllowed);
+let allowed = people.filter(person => {return person.age >= 21}).map(person => person.name)
+console.log(allowed);
