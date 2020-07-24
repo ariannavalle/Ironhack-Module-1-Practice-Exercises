@@ -1,5 +1,4 @@
 //Given the following array of objects, let’s filter just the ones with a pool.
-
 const places = [
     {
      title: "Awesome Suite 20' away from la Rambla",

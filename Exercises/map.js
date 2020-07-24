@@ -1,9 +1,8 @@
-//Given an array of cities, return an array with the first letter of each city’s name capitalized. 
-
+// Given an array of cities, return an array with the first letter of each city’s name capitalized. 
 var cities = ["miami", "barcelona", "madrid", "amsterdam", "berlin", "sao paulo", "lisbon", "mexico city", "paris"];
 console.log(cities.map(city => city[0].toUpperCase() + city.substring(1)))
 
-//Imagine you are a Math teacher and you have to grade your students based on their performance on two projects (40% of final grade) and their final exam (60% of final grade). Get a new array of objects, but this time the objects will contain only student´s name, and their final grade.
+// Imagine you are a Math teacher and you have to grade your students based on their performance on two projects (40% of final grade) and their final exam (60% of final grade). Get a new array of objects, but this time the objects will contain only student´s name, and their final grade.
 const students = [
     {
       name: "Tony Parker",

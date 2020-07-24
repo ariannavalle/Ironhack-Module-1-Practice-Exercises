@@ -1,4 +1,4 @@
-//Exercise 1: Calculate the total population in the given array (data):
+// Exercise 1: Calculate the total population in the given array (data):
 const data = [
   {
     country: 'USA',
@@ -19,7 +19,7 @@ console.log(totalPopulation)
 // expected output: 478
 
 
-//exercise 2: Given a menu of foods and their calories, calculate the average number of calories for the entire list.
+// Exercise 2: Given a menu of foods and their calories, calculate the average number of calories for the entire list.
 const menu = [
   { name: 'Carrots', calories: 150 },
   { name: 'Steak', calories: 350 },

@@ -20,7 +20,7 @@ function oldestPerson(arr) {
 }
 console.log(oldestPerson(people));
 
-//Solution 2
+// Solution 2
 function oldestPerson2(arr) {
   let sorted = [...arr].sort((a,b) => b.age - a.age)
   return sorted[0].name;
@@ -45,7 +45,7 @@ function averageAge(arr) {
 }
 console.log(averageAge(people));
 
-//solution 2
+// solution 2
 function averageAge2(arr) {
   // return average age of people
   let sum = arr.reduce((acc,current) => {
@@ -88,7 +88,7 @@ console.log(mostFrequent(randomString));
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
-//count the number of list items on the page
+// count the number of list items on the page
 /* 
 <div id="app">
     <ol>

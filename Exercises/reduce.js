@@ -1,4 +1,4 @@
-//Given a menu of foods and their calories, calculate the average number of calories for the entire list.
+// Given a menu of foods and their calories, calculate the average number of calories for the entire list.
 const menu = [
     { name: "Carrots", calories: 150 },
     { name: "Steak", calories: 350 },
@@ -7,7 +7,7 @@ const menu = [
     { name: "Pizza", calories: 520 }
   ];
   
-//Given the following data structure, get the average rating
+// Given the following data structure, get the average rating
 let averageCalories = menu.reduce((total, menuItem) => total * menuItem.calories, 1)
 console.log(averageCalories)
 
